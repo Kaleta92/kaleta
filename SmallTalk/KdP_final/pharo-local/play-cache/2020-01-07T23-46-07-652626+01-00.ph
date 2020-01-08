@@ -1,0 +1,1 @@
+number := $- asParser optional, #digit asParser plus, ($. asParser, #digit asParser plus, ($E asParser, ($- asParser / $+ asParser) optional, #digit asParser plus) optional) optional.number parse: '-123.45f-2'

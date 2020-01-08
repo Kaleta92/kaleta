@@ -1,0 +1,1 @@
+var := #letter asParser , #word asParser star.var matches: 'fu'

@@ -1,0 +1,1 @@
+expoNumber :=		$- asParser optional,						#digit asParser plus, 						($. asParser, #digit asParser plus, 						($e asParser / $E asParser, 						($- asParser / $+ asParser) optional, #digit asParser plus) optional) optional.

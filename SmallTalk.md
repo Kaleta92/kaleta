@@ -1,4 +1,0 @@
-# Ausarbeitung
-
-## Kapitel 1
-....

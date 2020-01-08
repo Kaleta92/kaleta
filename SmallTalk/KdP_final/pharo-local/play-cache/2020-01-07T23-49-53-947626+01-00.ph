@@ -1,0 +1,1 @@
+naturalNumber := #digit asParser plus.decimal := $. asParser optional.expo := $e asParser / $E asParser.negative := $- asParser optional.positive := $+ asParser optional.number := negative optional, naturalNumber, decimal, naturalNumber, (expo, (negative / positive)) optional, naturalNumbernumber matches: '3.143e-3.3'

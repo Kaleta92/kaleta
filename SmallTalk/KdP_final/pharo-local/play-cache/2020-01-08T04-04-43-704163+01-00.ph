@@ -1,0 +1,1 @@
+parser := CoPGrammer new.parser matches: '((2-2)*(2-2)*(5-1))'parser matches: '(100-2222):3'parser matches: '(3)*(2-3)'parser matches: '3(3):(1)'

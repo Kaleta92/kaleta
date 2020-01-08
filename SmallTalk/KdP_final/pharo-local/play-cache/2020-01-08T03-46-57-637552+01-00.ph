@@ -1,0 +1,1 @@
+parser := CoPLGrammer new.

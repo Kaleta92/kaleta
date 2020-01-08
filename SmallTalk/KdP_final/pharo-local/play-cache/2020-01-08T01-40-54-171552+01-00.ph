@@ -1,0 +1,1 @@
+naturalNumber := #digit asParser plus.expo := ($e asParser / $E asParser), ($- asParser / $+ asParser) optional, naturalNumber.expoNumber := $- asParser optional, naturalNumber, ($. asParser, naturalNumber, expo optional) optional.expoNumber matches: '3.14e+17'

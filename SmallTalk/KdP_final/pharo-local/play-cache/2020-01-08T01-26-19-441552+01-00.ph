@@ -1,0 +1,1 @@
+naturalNumber := negative optional, #digit asParser plus.decimal := $. asParser.expo := ($e asParser / $E asParser), (positive / negative) optional.negative := $- asParser.positive := $+ asParser.number := negative optional, naturalNumber, decimal optional, naturalNumber, expo optional, naturalNumbernumber matches: '1asdfasd'

@@ -1,0 +1,1141 @@
+[31mInstance of PPPredicateObjectParser class did not understand #digits
+[0mPPPredicateObjectParser class(Object)>>doesNotUnderstand: #digits
+ByteSymbol(Symbol)>>asParser
+CoPGrammer>>num
+[ :key :value | (parser instVarAt: key) setParser: (parser perform: value) ] in [ :class :parser | 
+parser setParser: (parser perform: parser children first name).
+parser productionNames
+	keysAndValuesDo:
+		[ :key :value | (parser instVarAt: key) setParser: (parser perform: value) ] ] in CoPGrammer class(PPCompositeParser class)>>newStartingAt: in Block: [ :key :value | (parser instVarAt: key) setParser:...etc...
+[ :assoc | aBlock value: assoc key value: assoc value ] in Dictionary>>keysAndValuesDo: in Block: [ :assoc | aBlock value: assoc key value: assoc va...etc...
+[ :each | each ifNotNil: [ aBlock value: each ] ] in Dictionary>>associationsDo: in Block: [ :each | each ifNotNil: [ aBlock value: each ] ]
+Array(SequenceableCollection)>>do:
+Dictionary>>associationsDo:
+Dictionary>>keysAndValuesDo:
+[ :class :parser | 
+parser setParser: (parser perform: parser children first name).
+parser productionNames
+	keysAndValuesDo:
+		[ :key :value | (parser instVarAt: key) setParser: (parser perform: value) ] ] in CoPGrammer class(PPCompositeParser class)>>newStartingAt: in Block: [ :class :parser | ...
+[ :assoc | aBlock value: assoc key value: assoc value ] in IdentityDictionary(Dictionary)>>keysAndValuesDo: in Block: [ :assoc | aBlock value: assoc key value: assoc va...etc...
+[ :each | each ifNotNil: [ aBlock value: each ] ] in IdentityDictionary(Dictionary)>>associationsDo: in Block: [ :each | each ifNotNil: [ aBlock value: each ] ]
+Array(SequenceableCollection)>>do:
+IdentityDictionary(Dictionary)>>associationsDo:
+IdentityDictionary(Dictionary)>>keysAndValuesDo:
+CoPGrammer class(PPCompositeParser class)>>newStartingAt:
+CoPGrammer class(PPCompositeParser class)>>new
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+RubSmalltalkEditor>>evaluate:andDo:
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate: in Block: [ textMorph textArea editor highlightEvaluateAndDo...etc...
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+[ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate: in Block: [ textMorph textArea...
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleNowFor:
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycle
+WorldMorph class>>doOneCycle
+[0m[31mInstance of PPPredicateObjectParser class did not understand #digits
+[0mPPPredicateObjectParser class(Object)>>doesNotUnderstand: #digits
+ByteSymbol(Symbol)>>asParser
+CoPGrammer>>num
+[ :key :value | (parser instVarAt: key) setParser: (parser perform: value) ] in [ :class :parser | 
+parser setParser: (parser perform: parser children first name).
+parser productionNames
+	keysAndValuesDo:
+		[ :key :value | (parser instVarAt: key) setParser: (parser perform: value) ] ] in CoPGrammer class(PPCompositeParser class)>>newStartingAt: in Block: [ :key :value | (parser instVarAt: key) setParser:...etc...
+[ :assoc | aBlock value: assoc key value: assoc value ] in Dictionary>>keysAndValuesDo: in Block: [ :assoc | aBlock value: assoc key value: assoc va...etc...
+[ :each | each ifNotNil: [ aBlock value: each ] ] in Dictionary>>associationsDo: in Block: [ :each | each ifNotNil: [ aBlock value: each ] ]
+Array(SequenceableCollection)>>do:
+Dictionary>>associationsDo:
+Dictionary>>keysAndValuesDo:
+[ :class :parser | 
+parser setParser: (parser perform: parser children first name).
+parser productionNames
+	keysAndValuesDo:
+		[ :key :value | (parser instVarAt: key) setParser: (parser perform: value) ] ] in CoPGrammer class(PPCompositeParser class)>>newStartingAt: in Block: [ :class :parser | ...
+[ :assoc | aBlock value: assoc key value: assoc value ] in IdentityDictionary(Dictionary)>>keysAndValuesDo: in Block: [ :assoc | aBlock value: assoc key value: assoc va...etc...
+[ :each | each ifNotNil: [ aBlock value: each ] ] in IdentityDictionary(Dictionary)>>associationsDo: in Block: [ :each | each ifNotNil: [ aBlock value: each ] ]
+Array(SequenceableCollection)>>do:
+IdentityDictionary(Dictionary)>>associationsDo:
+IdentityDictionary(Dictionary)>>keysAndValuesDo:
+CoPGrammer class(PPCompositeParser class)>>newStartingAt:
+CoPGrammer class(PPCompositeParser class)>>new
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+RubSmalltalkEditor>>evaluate:andDo:
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate: in Block: [ textMorph textArea editor highlightEvaluateAndDo...etc...
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+[ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate: in Block: [ textMorph textArea...
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleNowFor:
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycle
+WorldMorph class>>doOneCycle
+[0m[31mInstance of PPPredicateObjectParser class did not understand #digits
+[0mPPPredicateObjectParser class(Object)>>doesNotUnderstand: #digits
+ByteSymbol(Symbol)>>asParser
+CoPGrammer>>num
+[ :key :value | (parser instVarAt: key) setParser: (parser perform: value) ] in [ :class :parser | 
+parser setParser: (parser perform: parser children first name).
+parser productionNames
+	keysAndValuesDo:
+		[ :key :value | (parser instVarAt: key) setParser: (parser perform: value) ] ] in CoPGrammer class(PPCompositeParser class)>>newStartingAt: in Block: [ :key :value | (parser instVarAt: key) setParser:...etc...
+[ :assoc | aBlock value: assoc key value: assoc value ] in Dictionary>>keysAndValuesDo: in Block: [ :assoc | aBlock value: assoc key value: assoc va...etc...
+[ :each | each ifNotNil: [ aBlock value: each ] ] in Dictionary>>associationsDo: in Block: [ :each | each ifNotNil: [ aBlock value: each ] ]
+Array(SequenceableCollection)>>do:
+Dictionary>>associationsDo:
+Dictionary>>keysAndValuesDo:
+[ :class :parser | 
+parser setParser: (parser perform: parser children first name).
+parser productionNames
+	keysAndValuesDo:
+		[ :key :value | (parser instVarAt: key) setParser: (parser perform: value) ] ] in CoPGrammer class(PPCompositeParser class)>>newStartingAt: in Block: [ :class :parser | ...
+[ :assoc | aBlock value: assoc key value: assoc value ] in IdentityDictionary(Dictionary)>>keysAndValuesDo: in Block: [ :assoc | aBlock value: assoc key value: assoc va...etc...
+[ :each | each ifNotNil: [ aBlock value: each ] ] in IdentityDictionary(Dictionary)>>associationsDo: in Block: [ :each | each ifNotNil: [ aBlock value: each ] ]
+Array(SequenceableCollection)>>do:
+IdentityDictionary(Dictionary)>>associationsDo:
+IdentityDictionary(Dictionary)>>keysAndValuesDo:
+CoPGrammer class(PPCompositeParser class)>>newStartingAt:
+CoPGrammer class(PPCompositeParser class)>>new
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+RubSmalltalkEditor>>evaluate:andDo:
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate: in Block: [ textMorph textArea editor highlightEvaluateAndDo...etc...
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+[ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate: in Block: [ textMorph textArea...
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleNowFor:
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycle
+WorldMorph class>>doOneCycle
+[0m[31mSubclassResponsibility: CoPGrammerTest had the subclass responsibility to implement #parserClass
+[0mCoPGrammerTest(Object)>>subclassResponsibility
+CoPGrammerTest(PPCompositeParserTest)>>parserClass
+CoPGrammerTest(PPCompositeParserTest)>>parserInstance
+CoPGrammerTest(PPCompositeParserTest)>>setUp
+[ self setUp.
+self performTest ] in CoPGrammerTest(TestCase)>>runCase in Block: [ self setUp....
+BlockClosure>>ensure:
+CoPGrammerTest(TestCase)>>runCase
+[ aTestCase runCase ] in [ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ aTestCase runCase ]
+BlockClosure>>on:do:
+[ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ [ aTestCase runCase ]...
+BlockClosure>>on:do:
+TestExecutionEnvironment>>runTestCaseSafelly:
+[ self runTestCaseSafelly: aTestCase ] in [ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ self runTestCaseSafelly: aTestCase ]
+BlockClosure>>ensure:
+[ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ [ self runTestCaseSafelly: aTestCase ]...
+BlockClosure>>ifCurtailed:
+TestExecutionEnvironment>>runTestCase:
+[ testEnv runTestCase: aTestCase ] in DefaultExecutionEnvironment>>runTestCase: in Block: [ testEnv runTestCase: aTestCase ]
+[ self value: anExecutionEnvironment.
+anExecutionEnvironment activated.
+aBlock value ] in CurrentExecutionEnvironment class>>activate:for: in Block: [ self value: anExecutionEnvironment....
+BlockClosure>>ensure:
+CurrentExecutionEnvironment class>>activate:for:
+TestExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment>>runTestCase:
+CurrentExecutionEnvironment class>>runTestCase:
+CoPGrammerTest(TestCase)>>runCaseManaged
+[ aTestCase announce: TestCaseStarted withResult: self.
+aTestCase runCaseManaged.
+aTestCase announce: TestCaseEnded withResult: self.
+"To not affect performance of big test suites following logic is not inside addPass: method"
+errors remove: aTestCase ifAbsent: [  ].
+failures remove: aTestCase ifAbsent: [  ].
+self addPass: aTestCase ] in TestResult>>runCaseForDebug: in Block: [ aTestCase announce: TestCaseStarted withResult: ...etc...
+BlockClosure>>on:do:
+TestResult>>runCaseForDebug:
+[ result runCaseForDebug: self ] in CoPGrammerTest(TestCase)>>debug in Block: [ result runCaseForDebug: self ]
+BlockClosure>>ensure:
+[0m[31mSubclassResponsibility: CoPGrammerTest had the subclass responsibility to implement #parserClass
+[0mCoPGrammerTest(Object)>>subclassResponsibility
+CoPGrammerTest(PPCompositeParserTest)>>parserClass
+CoPGrammerTest(PPCompositeParserTest)>>parserInstance
+CoPGrammerTest(PPCompositeParserTest)>>setUp
+[ self setUp.
+self performTest ] in CoPGrammerTest(TestCase)>>runCase in Block: [ self setUp....
+BlockClosure>>ensure:
+CoPGrammerTest(TestCase)>>runCase
+[ aTestCase runCase ] in [ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ aTestCase runCase ]
+BlockClosure>>on:do:
+[ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ [ aTestCase runCase ]...
+BlockClosure>>on:do:
+TestExecutionEnvironment>>runTestCaseSafelly:
+[ self runTestCaseSafelly: aTestCase ] in [ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ self runTestCaseSafelly: aTestCase ]
+BlockClosure>>ensure:
+[ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ [ self runTestCaseSafelly: aTestCase ]...
+BlockClosure>>ifCurtailed:
+TestExecutionEnvironment>>runTestCase:
+[ testEnv runTestCase: aTestCase ] in DefaultExecutionEnvironment>>runTestCase: in Block: [ testEnv runTestCase: aTestCase ]
+[ self value: anExecutionEnvironment.
+anExecutionEnvironment activated.
+aBlock value ] in CurrentExecutionEnvironment class>>activate:for: in Block: [ self value: anExecutionEnvironment....
+BlockClosure>>ensure:
+CurrentExecutionEnvironment class>>activate:for:
+TestExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment>>runTestCase:
+CurrentExecutionEnvironment class>>runTestCase:
+CoPGrammerTest(TestCase)>>runCaseManaged
+[ aTestCase announce: TestCaseStarted withResult: self.
+aTestCase runCaseManaged.
+aTestCase announce: TestCaseEnded withResult: self.
+"To not affect performance of big test suites following logic is not inside addPass: method"
+errors remove: aTestCase ifAbsent: [  ].
+failures remove: aTestCase ifAbsent: [  ].
+self addPass: aTestCase ] in TestResult>>runCaseForDebug: in Block: [ aTestCase announce: TestCaseStarted withResult: ...etc...
+BlockClosure>>on:do:
+TestResult>>runCaseForDebug:
+[ result runCaseForDebug: self ] in CoPGrammerTest(TestCase)>>debug in Block: [ result runCaseForDebug: self ]
+BlockClosure>>ensure:
+[0m[31mSubclassResponsibility: CoPGrammerTest had the subclass responsibility to implement #parserClass
+[0mCoPGrammerTest(Object)>>subclassResponsibility
+CoPGrammerTest(PPCompositeParserTest)>>parserClass
+CoPGrammerTest(PPCompositeParserTest)>>parserInstance
+CoPGrammerTest(PPCompositeParserTest)>>setUp
+[ self setUp.
+self performTest ] in CoPGrammerTest(TestCase)>>runCase in Block: [ self setUp....
+BlockClosure>>ensure:
+CoPGrammerTest(TestCase)>>runCase
+[ aTestCase runCase ] in [ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ aTestCase runCase ]
+BlockClosure>>on:do:
+[ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ [ aTestCase runCase ]...
+BlockClosure>>on:do:
+TestExecutionEnvironment>>runTestCaseSafelly:
+[ self runTestCaseSafelly: aTestCase ] in [ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ self runTestCaseSafelly: aTestCase ]
+BlockClosure>>ensure:
+[ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ [ self runTestCaseSafelly: aTestCase ]...
+BlockClosure>>ifCurtailed:
+TestExecutionEnvironment>>runTestCase:
+[ testEnv runTestCase: aTestCase ] in DefaultExecutionEnvironment>>runTestCase: in Block: [ testEnv runTestCase: aTestCase ]
+[ self value: anExecutionEnvironment.
+anExecutionEnvironment activated.
+aBlock value ] in CurrentExecutionEnvironment class>>activate:for: in Block: [ self value: anExecutionEnvironment....
+BlockClosure>>ensure:
+CurrentExecutionEnvironment class>>activate:for:
+TestExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment>>runTestCase:
+CurrentExecutionEnvironment class>>runTestCase:
+CoPGrammerTest(TestCase)>>runCaseManaged
+[ aTestCase announce: TestCaseStarted withResult: self.
+aTestCase runCaseManaged.
+aTestCase announce: TestCaseEnded withResult: self.
+"To not affect performance of big test suites following logic is not inside addPass: method"
+errors remove: aTestCase ifAbsent: [  ].
+failures remove: aTestCase ifAbsent: [  ].
+self addPass: aTestCase ] in TestResult>>runCaseForDebug: in Block: [ aTestCase announce: TestCaseStarted withResult: ...etc...
+BlockClosure>>on:do:
+TestResult>>runCaseForDebug:
+[ result runCaseForDebug: self ] in CoPGrammerTest(TestCase)>>debug in Block: [ result runCaseForDebug: self ]
+BlockClosure>>ensure:
+[0m[31mSubclassResponsibility: CoPGrammerTest had the subclass responsibility to implement #parserClass
+[0mCoPGrammerTest(Object)>>subclassResponsibility
+CoPGrammerTest(PPCompositeParserTest)>>parserClass
+CoPGrammerTest(PPCompositeParserTest)>>parserInstance
+CoPGrammerTest(PPCompositeParserTest)>>setUp
+[ self setUp.
+self performTest ] in CoPGrammerTest(TestCase)>>runCase in Block: [ self setUp....
+BlockClosure>>ensure:
+CoPGrammerTest(TestCase)>>runCase
+[ aTestCase runCase ] in [ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ aTestCase runCase ]
+BlockClosure>>on:do:
+[ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ [ aTestCase runCase ]...
+BlockClosure>>on:do:
+TestExecutionEnvironment>>runTestCaseSafelly:
+[ self runTestCaseSafelly: aTestCase ] in [ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ self runTestCaseSafelly: aTestCase ]
+BlockClosure>>ensure:
+[ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ [ self runTestCaseSafelly: aTestCase ]...
+BlockClosure>>ifCurtailed:
+TestExecutionEnvironment>>runTestCase:
+[ testEnv runTestCase: aTestCase ] in DefaultExecutionEnvironment>>runTestCase: in Block: [ testEnv runTestCase: aTestCase ]
+[ self value: anExecutionEnvironment.
+anExecutionEnvironment activated.
+aBlock value ] in CurrentExecutionEnvironment class>>activate:for: in Block: [ self value: anExecutionEnvironment....
+BlockClosure>>ensure:
+CurrentExecutionEnvironment class>>activate:for:
+TestExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment>>runTestCase:
+CurrentExecutionEnvironment class>>runTestCase:
+CoPGrammerTest(TestCase)>>runCaseManaged
+[ aTestCase announce: TestCaseStarted withResult: self.
+aTestCase runCaseManaged.
+aTestCase announce: TestCaseEnded withResult: self.
+"To not affect performance of big test suites following logic is not inside addPass: method"
+errors remove: aTestCase ifAbsent: [  ].
+failures remove: aTestCase ifAbsent: [  ].
+self addPass: aTestCase ] in TestResult>>runCaseForDebug: in Block: [ aTestCase announce: TestCaseStarted withResult: ...etc...
+BlockClosure>>on:do:
+TestResult>>runCaseForDebug:
+[ result runCaseForDebug: self ] in CoPGrammerTest(TestCase)>>debug in Block: [ result runCaseForDebug: self ]
+BlockClosure>>ensure:
+[0m[31mSubclassResponsibility: CoPGrammerTest had the subclass responsibility to implement #parserClass
+[0mCoPGrammerTest(Object)>>subclassResponsibility
+CoPGrammerTest(PPCompositeParserTest)>>parserClass
+CoPGrammerTest(PPCompositeParserTest)>>parserInstance
+CoPGrammerTest(PPCompositeParserTest)>>setUp
+[ self setUp.
+self performTest ] in CoPGrammerTest(TestCase)>>runCase in Block: [ self setUp....
+BlockClosure>>ensure:
+CoPGrammerTest(TestCase)>>runCase
+[ aTestCase runCase ] in [ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ aTestCase runCase ]
+BlockClosure>>on:do:
+[ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ [ aTestCase runCase ]...
+BlockClosure>>on:do:
+TestExecutionEnvironment>>runTestCaseSafelly:
+[ self runTestCaseSafelly: aTestCase ] in [ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ self runTestCaseSafelly: aTestCase ]
+BlockClosure>>ensure:
+[ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ [ self runTestCaseSafelly: aTestCase ]...
+BlockClosure>>ifCurtailed:
+TestExecutionEnvironment>>runTestCase:
+[ testEnv runTestCase: aTestCase ] in DefaultExecutionEnvironment>>runTestCase: in Block: [ testEnv runTestCase: aTestCase ]
+[ self value: anExecutionEnvironment.
+anExecutionEnvironment activated.
+aBlock value ] in CurrentExecutionEnvironment class>>activate:for: in Block: [ self value: anExecutionEnvironment....
+BlockClosure>>ensure:
+CurrentExecutionEnvironment class>>activate:for:
+TestExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment>>runTestCase:
+CurrentExecutionEnvironment class>>runTestCase:
+CoPGrammerTest(TestCase)>>runCaseManaged
+[ aTestCase announce: TestCaseStarted withResult: self.
+aTestCase runCaseManaged.
+aTestCase announce: TestCaseEnded withResult: self.
+"To not affect performance of big test suites following logic is not inside addPass: method"
+errors remove: aTestCase ifAbsent: [  ].
+failures remove: aTestCase ifAbsent: [  ].
+self addPass: aTestCase ] in TestResult>>runCaseForDebug: in Block: [ aTestCase announce: TestCaseStarted withResult: ...etc...
+BlockClosure>>on:do:
+TestResult>>runCaseForDebug:
+[ result runCaseForDebug: self ] in CoPGrammerTest(TestCase)>>debug in Block: [ result runCaseForDebug: self ]
+BlockClosure>>ensure:
+[0m[31mTestFailure: Unable to parse 'subt / pro'
+[0mCoPGrammerTest(TestAsserter)>>assert:description:
+CoPGrammerTest(TestAsserter)>>deny:description:
+CoPGrammerTest(PPCompositeParserTest)>>parse:rule:
+CoPGrammerTest>>testTerm
+CoPGrammerTest(TestCase)>>performTest
+[ self setUp.
+self performTest ] in CoPGrammerTest(TestCase)>>runCase in Block: [ self setUp....
+BlockClosure>>ensure:
+CoPGrammerTest(TestCase)>>runCase
+[ aTestCase runCase ] in [ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ aTestCase runCase ]
+BlockClosure>>on:do:
+[ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ [ aTestCase runCase ]...
+BlockClosure>>on:do:
+TestExecutionEnvironment>>runTestCaseSafelly:
+[ self runTestCaseSafelly: aTestCase ] in [ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ self runTestCaseSafelly: aTestCase ]
+BlockClosure>>ensure:
+[ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ [ self runTestCaseSafelly: aTestCase ]...
+BlockClosure>>ifCurtailed:
+TestExecutionEnvironment>>runTestCase:
+[ testEnv runTestCase: aTestCase ] in DefaultExecutionEnvironment>>runTestCase: in Block: [ testEnv runTestCase: aTestCase ]
+[ self value: anExecutionEnvironment.
+anExecutionEnvironment activated.
+aBlock value ] in CurrentExecutionEnvironment class>>activate:for: in Block: [ self value: anExecutionEnvironment....
+BlockClosure>>ensure:
+CurrentExecutionEnvironment class>>activate:for:
+TestExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment>>runTestCase:
+CurrentExecutionEnvironment class>>runTestCase:
+CoPGrammerTest(TestCase)>>runCaseManaged
+[ aTestCase announce: TestCaseStarted withResult: self.
+aTestCase runCaseManaged.
+aTestCase announce: TestCaseEnded withResult: self.
+"To not affect performance of big test suites following logic is not inside addPass: method"
+errors remove: aTestCase ifAbsent: [  ].
+failures remove: aTestCase ifAbsent: [  ].
+self addPass: aTestCase ] in TestResult>>runCaseForDebug: in Block: [ aTestCase announce: TestCaseStarted withResult: ...etc...
+BlockClosure>>on:do:
+TestResult>>runCaseForDebug:
+[ result runCaseForDebug: self ] in CoPGrammerTest(TestCase)>>debug in Block: [ result runCaseForDebug: self ]
+[0m[31m
+[0mProcess>>terminate
+NECController>>stopCompletionDelay
+NECController>>closeMenu
+MessageSend>>value
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+AnnouncementSubscription>>deliver:
+[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+SubscriptionRegistry>>deliver:
+Announcer>>announce:
+RubEditingArea(Morph)>>doAnnounce:
+RubEditingArea(Morph)>>announceKeyboardFocusChange:
+RubEditingArea(Morph)>>keyboardFocusChange:
+RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
+HandMorph>>newKeyboardFocus:
+HandMorph>>releaseKeyboardFocus
+[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
+Array(SequenceableCollection)>>do:
+WorldState>>handsDo:
+WorldMorph>>viewBox:
+WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
+WorldMorph class>>startUp
+WorldMorph class(Behavior)>>startUp:
+ClassSessionHandler>>startup:
+[0m[31mError: Production CoPGrammer>>#braces not found.
+[0mCoPGrammerTest(Object)>>error:
+[ self
+	error:
+		'Production ' , self parserClass name , '>>' , aSymbol printString
+			, ' not found.' ] in CoPGrammerTest(PPCompositeParserTest)>>parserInstanceFor: in Block: [ self...
+[ ^ aBlock value ] in CoPGrammer(PPCompositeParser)>>productionAt:ifAbsent: in Block: [ ^ aBlock value ]
+Array(SequenceableCollection)>>indexOf:startingAt:ifAbsent:
+Array(SequenceableCollection)>>indexOf:ifAbsent:
+CoPGrammer(PPCompositeParser)>>productionAt:ifAbsent:
+CoPGrammerTest(PPCompositeParserTest)>>parserInstanceFor:
+CoPGrammerTest(PPCompositeParserTest)>>parse:rule:
+CoPGrammerTest>>testOpenBraces
+CoPGrammerTest(TestCase)>>performTest
+[ self setUp.
+self performTest ] in CoPGrammerTest(TestCase)>>runCase in Block: [ self setUp....
+BlockClosure>>ensure:
+CoPGrammerTest(TestCase)>>runCase
+[ aTestCase runCase ] in [ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ aTestCase runCase ]
+BlockClosure>>on:do:
+[ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ [ aTestCase runCase ]...
+BlockClosure>>on:do:
+TestExecutionEnvironment>>runTestCaseSafelly:
+[ self runTestCaseSafelly: aTestCase ] in [ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ self runTestCaseSafelly: aTestCase ]
+BlockClosure>>ensure:
+[ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ [ self runTestCaseSafelly: aTestCase ]...
+BlockClosure>>ifCurtailed:
+TestExecutionEnvironment>>runTestCase:
+[ testEnv runTestCase: aTestCase ] in DefaultExecutionEnvironment>>runTestCase: in Block: [ testEnv runTestCase: aTestCase ]
+[ self value: anExecutionEnvironment.
+anExecutionEnvironment activated.
+aBlock value ] in CurrentExecutionEnvironment class>>activate:for: in Block: [ self value: anExecutionEnvironment....
+BlockClosure>>ensure:
+CurrentExecutionEnvironment class>>activate:for:
+TestExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment>>runTestCase:
+CurrentExecutionEnvironment class>>runTestCase:
+[0m[31mTestFailure: Unable to parse '4(4'
+[0mCoPGrammerTest(TestAsserter)>>assert:description:
+CoPGrammerTest(TestAsserter)>>deny:description:
+CoPGrammerTest(PPCompositeParserTest)>>parse:rule:
+CoPGrammerTest>>testOpenBrackets
+CoPGrammerTest(TestCase)>>performTest
+[ self setUp.
+self performTest ] in CoPGrammerTest(TestCase)>>runCase in Block: [ self setUp....
+BlockClosure>>ensure:
+CoPGrammerTest(TestCase)>>runCase
+[ aTestCase runCase ] in [ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ aTestCase runCase ]
+BlockClosure>>on:do:
+[ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ [ aTestCase runCase ]...
+BlockClosure>>on:do:
+TestExecutionEnvironment>>runTestCaseSafelly:
+[ self runTestCaseSafelly: aTestCase ] in [ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ self runTestCaseSafelly: aTestCase ]
+BlockClosure>>ensure:
+[ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ [ self runTestCaseSafelly: aTestCase ]...
+BlockClosure>>ifCurtailed:
+TestExecutionEnvironment>>runTestCase:
+[ testEnv runTestCase: aTestCase ] in DefaultExecutionEnvironment>>runTestCase: in Block: [ testEnv runTestCase: aTestCase ]
+[ self value: anExecutionEnvironment.
+anExecutionEnvironment activated.
+aBlock value ] in CurrentExecutionEnvironment class>>activate:for: in Block: [ self value: anExecutionEnvironment....
+BlockClosure>>ensure:
+CurrentExecutionEnvironment class>>activate:for:
+TestExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment>>runTestCase:
+CurrentExecutionEnvironment class>>runTestCase:
+CoPGrammerTest(TestCase)>>runCaseManaged
+[ aTestCase announce: TestCaseStarted withResult: self.
+aTestCase runCaseManaged.
+aTestCase announce: TestCaseEnded withResult: self.
+"To not affect performance of big test suites following logic is not inside addPass: method"
+errors remove: aTestCase ifAbsent: [  ].
+failures remove: aTestCase ifAbsent: [  ].
+self addPass: aTestCase ] in TestResult>>runCaseForDebug: in Block: [ aTestCase announce: TestCaseStarted withResult: ...etc...
+BlockClosure>>on:do:
+TestResult>>runCaseForDebug:
+[ result runCaseForDebug: self ] in CoPGrammerTest(TestCase)>>debug in Block: [ result runCaseForDebug: self ]
+[0m[31mInstance of CoPGrammerTest class did not understand #parse:rule:
+[0mCoPGrammerTest class(Object)>>doesNotUnderstand: #parse:rule:
+CoPGrammerTest class>>DoIt
+OpalCompiler>>evaluate
+ClyTextEditor(RubSmalltalkEditor)>>evaluate:andDo:
+ClyTextEditor(RubSmalltalkEditor)>>evaluateSelectionAndDo:
+ClyTextEditor>>printIt
+[ :target | target editor printIt ] in RubSmalltalkEditor class>>buildShortcutsOn: in Block: [ :target | target editor printIt ]
+BlockClosure>>cull:
+BlockClosure>>cull:cull:
+BlockClosure>>cull:cull:cull:
+KMCategoryBinding>>completeMatch:buffer:
+[ :l | l completeMatch: self buffer: aBuffer ] in KMKeymap>>notifyCompleteMatchTo:buffer: in Block: [ :l | l completeMatch: self buffer: aBuffer ]
+Array(SequenceableCollection)>>do:
+KMKeymap>>notifyCompleteMatchTo:buffer:
+KMKeymap>>onMatchWith:notify:andDo:
+[ :entry | entry onMatchWith: anEventBuffer notify: aMatchListener andDo: aBlock ] in KMCategory>>onMatchWith:notify:andDo: in Block: [ :entry | entry onMatchWith: anEventBuffer notify...etc...
+Set>>do:
+KMCategory>>onMatchWith:notify:andDo:
+KMCategoryBinding>>verifyMatchWith:notifying:thenDoing:
+[ :aTarget | 
+"nice hack to stop in the first listener"
+aTarget
+	verifyMatchWith: anEventBuffer
+	notifying: self
+	thenDoing: [ ^ self ] ] in CmdKMDispatcher(KMDispatcher)>>dispatch: in Block: [ :aTarget | ...
+OrderedCollection>>do:
+CmdKMDispatcher(KMDispatcher)>>dispatch:
+CmdKMDispatcher>>dispatch:
+KMTarget>>dispatch:
+[ :targetToDispatch | 
+targetToDispatch dispatch: KMBuffer uniqueInstance buffer copy.
+aKeyboardEvent wasHandled
+	ifTrue: [ ^ self ] ] in KMDispatchChain>>dispatch: in Block: [ :targetToDispatch | ...
+KMDispatchChain>>do:
+KMDispatchChain>>dispatch:
+CmdKMDispatcher(KMDispatcher)>>dispatchKeystroke:
+RubEditingArea(Morph)>>dispatchKeystrokeForEvent:
+RubEditingArea(RubAbstractTextArea)>>handleKeystroke:
+[0m[31mTestFailure: Unable to parse '4*(4'
+[0mCoPGrammerTest(TestAsserter)>>assert:description:
+CoPGrammerTest(TestAsserter)>>deny:description:
+CoPGrammerTest(PPCompositeParserTest)>>parse:rule:
+CoPGrammerTest>>testOpenBrackets
+CoPGrammerTest(TestCase)>>performTest
+[ self setUp.
+self performTest ] in CoPGrammerTest(TestCase)>>runCase in Block: [ self setUp....
+BlockClosure>>ensure:
+CoPGrammerTest(TestCase)>>runCase
+[ aTestCase runCase ] in [ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ aTestCase runCase ]
+BlockClosure>>on:do:
+[ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ [ aTestCase runCase ]...
+BlockClosure>>on:do:
+TestExecutionEnvironment>>runTestCaseSafelly:
+[ self runTestCaseSafelly: aTestCase ] in [ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ self runTestCaseSafelly: aTestCase ]
+BlockClosure>>ensure:
+[ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ [ self runTestCaseSafelly: aTestCase ]...
+BlockClosure>>ifCurtailed:
+TestExecutionEnvironment>>runTestCase:
+[ testEnv runTestCase: aTestCase ] in DefaultExecutionEnvironment>>runTestCase: in Block: [ testEnv runTestCase: aTestCase ]
+[ self value: anExecutionEnvironment.
+anExecutionEnvironment activated.
+aBlock value ] in CurrentExecutionEnvironment class>>activate:for: in Block: [ self value: anExecutionEnvironment....
+BlockClosure>>ensure:
+CurrentExecutionEnvironment class>>activate:for:
+TestExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment>>runTestCase:
+CurrentExecutionEnvironment class>>runTestCase:
+CoPGrammerTest(TestCase)>>runCaseManaged
+[ aTestCase announce: TestCaseStarted withResult: self.
+aTestCase runCaseManaged.
+aTestCase announce: TestCaseEnded withResult: self.
+"To not affect performance of big test suites following logic is not inside addPass: method"
+errors remove: aTestCase ifAbsent: [  ].
+failures remove: aTestCase ifAbsent: [  ].
+self addPass: aTestCase ] in TestResult>>runCaseForDebug: in Block: [ aTestCase announce: TestCaseStarted withResult: ...etc...
+BlockClosure>>on:do:
+TestResult>>runCaseForDebug:
+[ result runCaseForDebug: self ] in CoPGrammerTest(TestCase)>>debug in Block: [ result runCaseForDebug: self ]
+[0m[31mTestFailure: Unable to parse '4*(4'
+[0mCoPGrammerTest(TestAsserter)>>assert:description:
+CoPGrammerTest(TestAsserter)>>deny:description:
+CoPGrammerTest(PPCompositeParserTest)>>parse:rule:
+CoPGrammerTest>>testOpenBrackets
+CoPGrammerTest(TestCase)>>performTest
+[ self setUp.
+self performTest ] in CoPGrammerTest(TestCase)>>runCase in Block: [ self setUp....
+BlockClosure>>ensure:
+CoPGrammerTest(TestCase)>>runCase
+[ aTestCase runCase ] in [ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ aTestCase runCase ]
+BlockClosure>>on:do:
+[ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ [ aTestCase runCase ]...
+BlockClosure>>on:do:
+TestExecutionEnvironment>>runTestCaseSafelly:
+[ self runTestCaseSafelly: aTestCase ] in [ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ self runTestCaseSafelly: aTestCase ]
+BlockClosure>>ensure:
+[ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ [ self runTestCaseSafelly: aTestCase ]...
+BlockClosure>>ifCurtailed:
+TestExecutionEnvironment>>runTestCase:
+[ testEnv runTestCase: aTestCase ] in DefaultExecutionEnvironment>>runTestCase: in Block: [ testEnv runTestCase: aTestCase ]
+[ self value: anExecutionEnvironment.
+anExecutionEnvironment activated.
+aBlock value ] in CurrentExecutionEnvironment class>>activate:for: in Block: [ self value: anExecutionEnvironment....
+BlockClosure>>ensure:
+CurrentExecutionEnvironment class>>activate:for:
+TestExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment>>runTestCase:
+CurrentExecutionEnvironment class>>runTestCase:
+CoPGrammerTest(TestCase)>>runCaseManaged
+[ aTestCase announce: TestCaseStarted withResult: self.
+aTestCase runCaseManaged.
+aTestCase announce: TestCaseEnded withResult: self.
+"To not affect performance of big test suites following logic is not inside addPass: method"
+errors remove: aTestCase ifAbsent: [  ].
+failures remove: aTestCase ifAbsent: [  ].
+self addPass: aTestCase ] in TestResult>>runCaseForDebug: in Block: [ aTestCase announce: TestCaseStarted withResult: ...etc...
+BlockClosure>>on:do:
+TestResult>>runCaseForDebug:
+[ result runCaseForDebug: self ] in CoPGrammerTest(TestCase)>>debug in Block: [ result runCaseForDebug: self ]
+[0m[31mTestFailure: Unable to parse '4*(4'
+[0mCoPGrammerTest(TestAsserter)>>assert:description:
+CoPGrammerTest(TestAsserter)>>deny:description:
+CoPGrammerTest(PPCompositeParserTest)>>parse:rule:
+CoPGrammerTest>>testBrackets
+CoPGrammerTest(TestCase)>>performTest
+[ self setUp.
+self performTest ] in CoPGrammerTest(TestCase)>>runCase in Block: [ self setUp....
+BlockClosure>>ensure:
+CoPGrammerTest(TestCase)>>runCase
+[ aTestCase runCase ] in [ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ aTestCase runCase ]
+BlockClosure>>on:do:
+[ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ [ aTestCase runCase ]...
+BlockClosure>>on:do:
+TestExecutionEnvironment>>runTestCaseSafelly:
+[ self runTestCaseSafelly: aTestCase ] in [ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ self runTestCaseSafelly: aTestCase ]
+BlockClosure>>ensure:
+[ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ [ self runTestCaseSafelly: aTestCase ]...
+BlockClosure>>ifCurtailed:
+TestExecutionEnvironment>>runTestCase:
+[ testEnv runTestCase: aTestCase ] in DefaultExecutionEnvironment>>runTestCase: in Block: [ testEnv runTestCase: aTestCase ]
+[ self value: anExecutionEnvironment.
+anExecutionEnvironment activated.
+aBlock value ] in CurrentExecutionEnvironment class>>activate:for: in Block: [ self value: anExecutionEnvironment....
+BlockClosure>>ensure:
+CurrentExecutionEnvironment class>>activate:for:
+TestExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment>>runTestCase:
+CurrentExecutionEnvironment class>>runTestCase:
+CoPGrammerTest(TestCase)>>runCaseManaged
+[ aTestCase announce: TestCaseStarted withResult: self.
+aTestCase runCaseManaged.
+aTestCase announce: TestCaseEnded withResult: self.
+"To not affect performance of big test suites following logic is not inside addPass: method"
+errors remove: aTestCase ifAbsent: [  ].
+failures remove: aTestCase ifAbsent: [  ].
+self addPass: aTestCase ] in TestResult>>runCaseForDebug: in Block: [ aTestCase announce: TestCaseStarted withResult: ...etc...
+BlockClosure>>on:do:
+TestResult>>runCaseForDebug:
+[ result runCaseForDebug: self ] in CoPGrammerTest(TestCase)>>debug in Block: [ result runCaseForDebug: self ]
+[0m[31mTestFailure: Unable to parse '4*(4'
+[0mCoPGrammerTest(TestAsserter)>>assert:description:
+CoPGrammerTest(TestAsserter)>>deny:description:
+CoPGrammerTest(PPCompositeParserTest)>>parse:rule:
+CoPGrammerTest>>testOpenBrackets
+CoPGrammerTest(TestCase)>>performTest
+[ self setUp.
+self performTest ] in CoPGrammerTest(TestCase)>>runCase in Block: [ self setUp....
+BlockClosure>>ensure:
+CoPGrammerTest(TestCase)>>runCase
+[ aTestCase runCase ] in [ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ aTestCase runCase ]
+BlockClosure>>on:do:
+[ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ [ aTestCase runCase ]...
+BlockClosure>>on:do:
+TestExecutionEnvironment>>runTestCaseSafelly:
+[ self runTestCaseSafelly: aTestCase ] in [ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ self runTestCaseSafelly: aTestCase ]
+BlockClosure>>ensure:
+[ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ [ self runTestCaseSafelly: aTestCase ]...
+BlockClosure>>ifCurtailed:
+TestExecutionEnvironment>>runTestCase:
+[ testEnv runTestCase: aTestCase ] in DefaultExecutionEnvironment>>runTestCase: in Block: [ testEnv runTestCase: aTestCase ]
+[ self value: anExecutionEnvironment.
+anExecutionEnvironment activated.
+aBlock value ] in CurrentExecutionEnvironment class>>activate:for: in Block: [ self value: anExecutionEnvironment....
+BlockClosure>>ensure:
+CurrentExecutionEnvironment class>>activate:for:
+TestExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment>>runTestCase:
+CurrentExecutionEnvironment class>>runTestCase:
+CoPGrammerTest(TestCase)>>runCaseManaged
+[ aTestCase announce: TestCaseStarted withResult: self.
+aTestCase runCaseManaged.
+aTestCase announce: TestCaseEnded withResult: self.
+"To not affect performance of big test suites following logic is not inside addPass: method"
+errors remove: aTestCase ifAbsent: [  ].
+failures remove: aTestCase ifAbsent: [  ].
+self addPass: aTestCase ] in TestResult>>runCaseForDebug: in Block: [ aTestCase announce: TestCaseStarted withResult: ...etc...
+BlockClosure>>on:do:
+TestResult>>runCaseForDebug:
+[ result runCaseForDebug: self ] in CoPGrammerTest(TestCase)>>debug in Block: [ result runCaseForDebug: self ]
+[0m[31mTestFailure: Unable to parse 'subt / pro'
+[0mCoPGrammerTest(TestAsserter)>>assert:description:
+CoPGrammerTest(TestAsserter)>>deny:description:
+CoPGrammerTest(PPCompositeParserTest)>>parse:rule:
+CoPGrammerTest>>testTerm
+CoPGrammerTest(TestCase)>>performTest
+[ self setUp.
+self performTest ] in CoPGrammerTest(TestCase)>>runCase in Block: [ self setUp....
+BlockClosure>>ensure:
+CoPGrammerTest(TestCase)>>runCase
+[ aTestCase runCase ] in [ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ aTestCase runCase ]
+BlockClosure>>on:do:
+[ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ [ aTestCase runCase ]...
+BlockClosure>>on:do:
+TestExecutionEnvironment>>runTestCaseSafelly:
+[ self runTestCaseSafelly: aTestCase ] in [ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ self runTestCaseSafelly: aTestCase ]
+BlockClosure>>ensure:
+[ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ [ self runTestCaseSafelly: aTestCase ]...
+BlockClosure>>ifCurtailed:
+TestExecutionEnvironment>>runTestCase:
+[ testEnv runTestCase: aTestCase ] in DefaultExecutionEnvironment>>runTestCase: in Block: [ testEnv runTestCase: aTestCase ]
+[ self value: anExecutionEnvironment.
+anExecutionEnvironment activated.
+aBlock value ] in CurrentExecutionEnvironment class>>activate:for: in Block: [ self value: anExecutionEnvironment....
+BlockClosure>>ensure:
+CurrentExecutionEnvironment class>>activate:for:
+TestExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment>>runTestCase:
+CurrentExecutionEnvironment class>>runTestCase:
+CoPGrammerTest(TestCase)>>runCaseManaged
+[ aTestCase announce: TestCaseStarted withResult: self.
+aTestCase runCaseManaged.
+aTestCase announce: TestCaseEnded withResult: self.
+"To not affect performance of big test suites following logic is not inside addPass: method"
+errors remove: aTestCase ifAbsent: [  ].
+failures remove: aTestCase ifAbsent: [  ].
+self addPass: aTestCase ] in TestResult>>runCaseForDebug: in Block: [ aTestCase announce: TestCaseStarted withResult: ...etc...
+BlockClosure>>on:do:
+TestResult>>runCaseForDebug:
+[ result runCaseForDebug: self ] in CoPGrammerTest(TestCase)>>debug in Block: [ result runCaseForDebug: self ]
+[0m[31mTestFailure: Unable to parse '4*(4'
+[0mCoPGrammerTest(TestAsserter)>>assert:description:
+CoPGrammerTest(TestAsserter)>>deny:description:
+CoPGrammerTest(PPCompositeParserTest)>>parse:rule:
+CoPGrammerTest>>testOpenBrackets
+CoPGrammerTest(TestCase)>>performTest
+[ self setUp.
+self performTest ] in CoPGrammerTest(TestCase)>>runCase in Block: [ self setUp....
+BlockClosure>>ensure:
+CoPGrammerTest(TestCase)>>runCase
+[ aTestCase runCase ] in [ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ aTestCase runCase ]
+BlockClosure>>on:do:
+[ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ [ aTestCase runCase ]...
+BlockClosure>>on:do:
+TestExecutionEnvironment>>runTestCaseSafelly:
+[ self runTestCaseSafelly: aTestCase ] in [ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ self runTestCaseSafelly: aTestCase ]
+BlockClosure>>ensure:
+[ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ [ self runTestCaseSafelly: aTestCase ]...
+BlockClosure>>ifCurtailed:
+TestExecutionEnvironment>>runTestCase:
+[ testEnv runTestCase: aTestCase ] in DefaultExecutionEnvironment>>runTestCase: in Block: [ testEnv runTestCase: aTestCase ]
+[ self value: anExecutionEnvironment.
+anExecutionEnvironment activated.
+aBlock value ] in CurrentExecutionEnvironment class>>activate:for: in Block: [ self value: anExecutionEnvironment....
+BlockClosure>>ensure:
+CurrentExecutionEnvironment class>>activate:for:
+TestExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment>>runTestCase:
+CurrentExecutionEnvironment class>>runTestCase:
+CoPGrammerTest(TestCase)>>runCaseManaged
+[ aTestCase announce: TestCaseStarted withResult: self.
+aTestCase runCaseManaged.
+aTestCase announce: TestCaseEnded withResult: self.
+"To not affect performance of big test suites following logic is not inside addPass: method"
+errors remove: aTestCase ifAbsent: [  ].
+failures remove: aTestCase ifAbsent: [  ].
+self addPass: aTestCase ] in TestResult>>runCaseForDebug: in Block: [ aTestCase announce: TestCaseStarted withResult: ...etc...
+BlockClosure>>on:do:
+TestResult>>runCaseForDebug:
+[ result runCaseForDebug: self ] in CoPGrammerTest(TestCase)>>debug in Block: [ result runCaseForDebug: self ]
+[0m[31mTestFailure: Unable to parse '4)*'
+[0mCoPGrammerTest(TestAsserter)>>assert:description:
+CoPGrammerTest(TestAsserter)>>deny:description:
+CoPGrammerTest(PPCompositeParserTest)>>parse:rule:
+CoPGrammerTest>>testCloseBrackets
+CoPGrammerTest(TestCase)>>performTest
+[ self setUp.
+self performTest ] in CoPGrammerTest(TestCase)>>runCase in Block: [ self setUp....
+BlockClosure>>ensure:
+CoPGrammerTest(TestCase)>>runCase
+[ aTestCase runCase ] in [ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ aTestCase runCase ]
+BlockClosure>>on:do:
+[ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ [ aTestCase runCase ]...
+BlockClosure>>on:do:
+TestExecutionEnvironment>>runTestCaseSafelly:
+[ self runTestCaseSafelly: aTestCase ] in [ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ self runTestCaseSafelly: aTestCase ]
+BlockClosure>>ensure:
+[ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ [ self runTestCaseSafelly: aTestCase ]...
+BlockClosure>>ifCurtailed:
+TestExecutionEnvironment>>runTestCase:
+[ testEnv runTestCase: aTestCase ] in DefaultExecutionEnvironment>>runTestCase: in Block: [ testEnv runTestCase: aTestCase ]
+[ self value: anExecutionEnvironment.
+anExecutionEnvironment activated.
+aBlock value ] in CurrentExecutionEnvironment class>>activate:for: in Block: [ self value: anExecutionEnvironment....
+BlockClosure>>ensure:
+CurrentExecutionEnvironment class>>activate:for:
+TestExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment>>runTestCase:
+CurrentExecutionEnvironment class>>runTestCase:
+CoPGrammerTest(TestCase)>>runCaseManaged
+[ aTestCase announce: TestCaseStarted withResult: self.
+aTestCase runCaseManaged.
+aTestCase announce: TestCaseEnded withResult: self.
+"To not affect performance of big test suites following logic is not inside addPass: method"
+errors remove: aTestCase ifAbsent: [  ].
+failures remove: aTestCase ifAbsent: [  ].
+self addPass: aTestCase ] in TestResult>>runCaseForDebug: in Block: [ aTestCase announce: TestCaseStarted withResult: ...etc...
+BlockClosure>>on:do:
+TestResult>>runCaseForDebug:
+[ result runCaseForDebug: self ] in CoPGrammerTest(TestCase)>>debug in Block: [ result runCaseForDebug: self ]
+[0m[31m
+[0mProcess>>terminate
+NECController>>stopCompletionDelay
+NECController>>closeMenu
+MessageSend>>value
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+AnnouncementSubscription>>deliver:
+[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+SubscriptionRegistry>>deliver:
+Announcer>>announce:
+RubEditingArea(Morph)>>doAnnounce:
+RubEditingArea(Morph)>>announceKeyboardFocusChange:
+RubEditingArea(Morph)>>keyboardFocusChange:
+RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
+HandMorph>>newKeyboardFocus:
+HandMorph>>releaseKeyboardFocus
+[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
+Array(SequenceableCollection)>>do:
+WorldState>>handsDo:
+WorldMorph>>viewBox:
+WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
+WorldMorph class>>startUp
+WorldMorph class(Behavior)>>startUp:
+ClassSessionHandler>>startup:
+[0m[31mNotFound: Failed to resolve path '/builds/workspace/moose-7.0-64bit/pharo-local/iceberg/moosetechnology/Moose': Das System kann den angegebenen Pfad nicht finden.
+
+[0mIceLibgitErrorVisitor>>visitENOTFOUND:
+LGit_GIT_ENOTFOUND>>acceptError:
+[ :error | error acceptError: (IceLibgitErrorVisitor onContext: self) ] in IceLibgitRepository>>handleLibgitError: in Block: [ :error | error acceptError: (IceLibgitErrorVisit...etc...
+BlockClosure>>cull:
+Context>>evaluateSignal:
+Context>>handleSignal:
+LGit_GIT_ENOTFOUND(Exception)>>signal
+LGit_GIT_ENOTFOUND class(LGitCallReturnHandler class)>>signalWith:
+LGitReturnCodeEnum>>handleLGitReturnCode
+LGitRepository(LGitExternalObject)>>withReturnHandlerDo:
+LGitRepository>>open
+IceLibgitRepository>>repositoryHandle
+[ | fromTree toTree diff |
+fromTree := (LGitCommit
+	of: self repositoryHandle
+	fromHexString: aCommitish id) tree.
+toTree := (LGitCommit
+	of: self repositoryHandle
+	fromHexString: otherCommitish id) tree.
+diff := fromTree diffTo: toTree.
+^ diff files ] in IceLibgitRepository>>changedFilesBetween:and: in Block: [ | fromTree toTree diff |...
+BlockClosure>>on:do:
+IceLibgitRepository>>handleLibgitError:
+IceLibgitRepository>>changedFilesBetween:and:
+IceGitCommit>>changesFromCommit:
+IceWorkingCopy>>changesTo:
+IceDiff>>build
+IceDiff class>>from:to:
+IceWorkingCopy>>diffTo:
+IceWorkingCopy>>diffToReferenceCommit
+IceLibgitRepository(IceRepository)>>workingCopyDiff
+IceTipWorkingCopyDiffModel>>newDiff
+IceTipWorkingCopyDiffModel>>diff
+IceTipWorkingCopyDiffModel(IceTipDiffModel)>>tree
+IceTipWorkingCopyDiffModel(IceTipDiffModel)>>treeRoots
+IceTipDiffSelectingPanel>>newChangeTreeDataSource
+IceTipDiffSelectingPanel(IceTipDiffPanel)>>initializeChangeList
+IceTipDiffSelectingPanel(IceTipDiffPanel)>>initializeWidgets
+[0m

@@ -1,0 +1,1 @@
+{'template':PhLRemoteTemplate{#name:'Moose Suite 7.0 (stable)',#url:ZnUrl{#scheme:#https,#host:'ci.inria.fr',#segments:OrderedCollection['moose','job','moose-7.0-64bit','lastSuccessfulBuild','artifact','moose-7.0-64bit.zip']}}}

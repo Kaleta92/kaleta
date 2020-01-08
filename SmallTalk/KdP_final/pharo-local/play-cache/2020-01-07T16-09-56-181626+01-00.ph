@@ -1,0 +1,1 @@
+kdp := KdPGrammer new.kdp parse: '3*2'

@@ -1,0 +1,1 @@
+natural := digit asParser plus.number := natural.number matches: '3'
