@@ -288,3 +288,5 @@ Like always everywhere, it depends on your own preferences and interests. If I h
  - http://people.cs.vt.edu/~kafura/PreviousPapers/coop-isipcala93.pdf
  - https://www.slant.co/topics/18985/~programming-language-to-write-a-compiler
 
+
+by Markus Kaleta
